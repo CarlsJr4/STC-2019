@@ -3,8 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .welcomeCard {
-  padding: 25px;
   @extend %box-shadow;
+  padding: 25px;
+  transition: transform 100ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 @media screen and (max-width: 768px) {

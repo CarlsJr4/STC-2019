@@ -23,7 +23,7 @@
 }
 
 .vCenter--landing {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 /* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
@@ -84,6 +84,10 @@ p {
 
 .welcomeCard {
   padding: 25px;
+  transition: transform 100ms;
+}
+.welcomeCard:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {
