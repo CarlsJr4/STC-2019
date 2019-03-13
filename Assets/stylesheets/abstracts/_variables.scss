@@ -2,15 +2,18 @@
 // This file contains all variables across the site
 // -----------------------------------------------------------------------------
 
-/* CNH CIRCLE K GRAPHICS STANDARDS COLORS:
-  Yellow #F2E18B
-  Olive Green #9EA374
-  Light Blue #C7D6EE
-  Red #820024
-  Dark Grey #58595B
-  Orange #F58025
-  Green #6A9448
-  Cyan #00A5D9
-  Blue #003D79
-  Black #231F20
-*/
+$purple: #E3D1E5;
+$blue: #D1E2E8;
+$yellow: #F9EFC5;
+$red: #D35E5E;
+$brown: #C1AD8E;
+
+// Base
+$nBackground: $blue;
+$sBackground: $purple;
+
+// Components
+$btnBackground: $red;
+
+// Layout
+$cardBackground: $red;
