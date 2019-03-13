@@ -2,15 +2,9 @@
 // This file contains all @font-face declarations
 // -----------------------------------------------------------------------------
 
-/* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
+// Header & subheader
+@font-face{font-family: 'Archer'; src: url(../Assets/Fonts/Archer-Semibold.otf) format('opentype');}
+
+// Body
 @font-face{font-family: 'CenturyGothic'; src: url(../Assets/Fonts/CenturyGothic.ttf) format('truetype');}
 @font-face{font-family: 'MyriadPro'; src: url(../Assets/Fonts/MyriadPro-Regular.otf) format('opentype');}
-@font-face{font-family: 'Archer'; src: url(../Assets/Fonts/Archer-Semibold.otf) format('opentype');}
-@font-face{font-family: 'Garamond'; src: url(../Assets/Fonts/Garamond.ttf) format('truetype');}
-
-/* FONTS DEMO */
-#description{ font-family: "CenturyGothic"; }
-#CenturyGothic{ font-family: "CenturyGothic"; }
-#MyriadPro{ font-family: "MyriadPro"; }
-#Archer{ font-family: "Archer"; }
-#Garamond{ font-family: "Garamond"; }

@@ -2,6 +2,14 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
+button {
+  background: #D35E5E;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
 .textCenter {
   text-align: center;
 }
@@ -14,7 +22,10 @@
   margin-top: 10%;
 }
 
-/* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
+@font-face {
+  font-family: "Archer";
+  src: url(../Assets/Fonts/Archer-Semibold.otf) format("opentype");
+}
 @font-face {
   font-family: "CenturyGothic";
   src: url(../Assets/Fonts/CenturyGothic.ttf) format("truetype");
@@ -23,51 +34,22 @@
   font-family: "MyriadPro";
   src: url(../Assets/Fonts/MyriadPro-Regular.otf) format("opentype");
 }
-@font-face {
-  font-family: "Archer";
-  src: url(../Assets/Fonts/Archer-Semibold.otf) format("opentype");
-}
-@font-face {
-  font-family: "Garamond";
-  src: url(../Assets/Fonts/Garamond.ttf) format("truetype");
-}
-/* FONTS DEMO */
-#description {
-  font-family: "CenturyGothic";
-}
-
-#CenturyGothic {
-  font-family: "CenturyGothic";
-}
-
-#MyriadPro {
-  font-family: "MyriadPro";
-}
-
-#Archer {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Archer";
 }
 
-#Garamond {
-  font-family: "Garamond";
-}
-
-h1 {
-  /* TODO: Style your main text elements */
-}
-
-h2 {
-  /* TODO: Style your main text elements */
-}
-
-p {
-  /* TODO: Style your main text elements */
+p, a {
+  font-family: "CenturyGothic";
 }
 
 #masthead {
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+
+button {
+  padding: 1rem 4rem;
 }
 
 .welcomeCard {

@@ -1,15 +1,10 @@
 // -----------------------------------------------------------------------------
-// This file contains all typography styling rules 
+// This file contains all typography styling rules
 // -----------------------------------------------------------------------------
 
-h1 {
-  /* TODO: Style your main text elements */
-}
+// Headings
+h1, h2, h3, h4, h5, h6 { font-family: "Archer"; }
 
-h2{
-  /* TODO: Style your main text elements */
-}
-
-p{
-  /* TODO: Style your main text elements */
-}
+// Paragraphs and links
+p, a { font-family: "CenturyGothic"; }
+// #MyriadPro{ font-family: "MyriadPro"; }
