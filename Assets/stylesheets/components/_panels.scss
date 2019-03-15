@@ -1,0 +1,15 @@
+// White header panels
+
+// White content panels
+
+// Committee cards
+.card {
+  @extend %redBox;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card__img {
+  border-radius: 50%;
+  max-width: 75%;
+}
