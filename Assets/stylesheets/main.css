@@ -24,15 +24,15 @@ button {
 
 @font-face {
   font-family: "Archer";
-  src: url(../Assets/Fonts/Archer-Semibold.otf) format("opentype");
+  src: url(..stylesheets/base/Fonts/Archer-Semibold.otf) format("opentype");
 }
 @font-face {
   font-family: "CenturyGothic";
-  src: url(../Assets/Fonts/CenturyGothic.ttf) format("truetype");
+  src: url(../stylesheets/base/Fonts/CenturyGothic.ttf) format("truetype");
 }
 @font-face {
   font-family: "MyriadPro";
-  src: url(../Assets/Fonts/MyriadPro-Regular.otf) format("opentype");
+  src: url(../stylesheets/base/Fonts/MyriadPro-Regular.otf) format("opentype");
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Archer";
