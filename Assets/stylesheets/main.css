@@ -46,6 +46,10 @@ p, a {
   font-family: "CenturyGothic";
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #masthead {
   position: absolute;
   width: 100%;
@@ -85,6 +89,11 @@ button {
   top: -40%;
   left: 1.25em;
   right: 1.25em;
+}
+
+.brownPanel--downloads::before {
+  top: 1rem;
+  width: 35%;
 }
 
 .card {

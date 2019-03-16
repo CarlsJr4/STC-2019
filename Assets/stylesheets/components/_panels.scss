@@ -39,6 +39,14 @@
   }
 }
 
+.brownPanel--downloads {
+  &::before {
+    top: 1rem;
+    width: 35%;
+  }
+
+}
+
 // Committee cards
 .card {
   @extend %redBox;
