@@ -52,18 +52,6 @@ p, a {
   bottom: 0;
 }
 
-#north {
-  background-color: #D1E2E8;
-}
-
-#south {
-  background-color: #E3D1E5;
-}
-
-.header {
-  padding-left: 0;
-}
-
 button {
   padding: 1rem 4rem;
 }
@@ -112,6 +100,17 @@ button {
 
 @media screen and (max-width: 768px) {
   /* TODO: Add CSS properties here for smaller screens (with width 768px or less, as indicated above) */
+}
+#north {
+  background-color: #D1E2E8;
+}
+
+#south {
+  background-color: #E3D1E5;
+}
+
+.header {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
