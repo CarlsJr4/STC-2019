@@ -6,7 +6,19 @@
   background-color: $sBackground;
 }
 
+// White header positioning
 .header {
   padding-left: 0;
   position: relative;
+}
+
+// Individual section heights
+.container {
+  &--main {
+    height: 100vh;
+    padding-top: 12%;
+  }
+  &--desc, &--docs, &--deadlines, &--committee {
+    margin-bottom: 10%
+  }
 }

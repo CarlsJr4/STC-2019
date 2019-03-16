@@ -2,12 +2,13 @@
 .whiteHeader {
   @extend %whiteBox;
   max-width: 50%;
-  &::after {
+  margin-bottom: 3rem;
+  &::after { // The red underline underneath the panel
     content: "";
     position: absolute;
     border-bottom: 0.5rem solid $panelAccent;
     width: 15rem;
-    bottom: 2rem;
+    bottom: 4rem;
     left: 3rem;
   }
 }
@@ -20,13 +21,13 @@
 // Brown clipboard panel
 .brownPanel {
   @extend %whiteBox;
-  border: {
+  border: { // Clipboard background
     style: solid;
     color: $clipPanelBg;
     width: 50px 8px 8px;
     radius: 3px;
   }
-  &::before {
+  &::before { // The white accent above the clipboard border 
     content: "";
     border-bottom: 10px solid white;
     border-radius: 5px;
