@@ -53,6 +53,7 @@ p, a {
 }
 
 button {
+  box-shadow: none;
   padding: 1rem 4rem;
 }
 
