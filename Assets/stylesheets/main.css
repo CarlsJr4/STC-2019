@@ -1,4 +1,4 @@
-.welcomeCard {
+.welcomeCard, .whitePanel, .whiteHeader, .card, button {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
@@ -6,8 +6,12 @@
   background: #D35E5E;
   border: 0;
   border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   color: white;
+}
+
+.whitePanel, .whiteHeader {
+  background-color: #FFFFFF;
+  padding: 3rem;
 }
 
 .textCenter {
@@ -56,18 +60,27 @@ p, a {
   background-color: #E3D1E5;
 }
 
+.header {
+  padding-left: 0;
+}
+
 button {
   padding: 1rem 4rem;
+}
+
+.whiteHeader {
+  max-width: 50%;
 }
 
 .card {
   text-align: center;
   padding: 1rem;
+  margin: 1rem;
 }
 
 .card__img {
   border-radius: 50%;
-  max-width: 75%;
+  max-width: 50%;
 }
 
 .welcomeCard {
