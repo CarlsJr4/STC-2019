@@ -59,6 +59,14 @@ button {
 .whiteHeader {
   max-width: 50%;
 }
+.whiteHeader::after {
+  content: "";
+  position: absolute;
+  border-bottom: 0.5rem solid #D35E5E;
+  width: 15rem;
+  bottom: 2rem;
+  left: 3rem;
+}
 
 .brownPanel {
   border-style: solid;
@@ -72,7 +80,6 @@ button {
   border-radius: 5px;
   width: 50%;
   margin: auto;
-  background-color: white;
   position: absolute;
   top: -40%;
   left: 1.25em;
@@ -111,6 +118,7 @@ button {
 
 .header {
   padding-left: 0;
+  position: relative;
 }
 
 /*# sourceMappingURL=main.css.map */

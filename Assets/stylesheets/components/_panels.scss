@@ -2,6 +2,14 @@
 .whiteHeader {
   @extend %whiteBox;
   max-width: 50%;
+  &::after {
+    content: "";
+    position: absolute;
+    border-bottom: 0.5rem solid $panelAccent;
+    width: 15rem;
+    bottom: 2rem;
+    left: 3rem;
+  }
 }
 
 // White content panels
@@ -24,7 +32,6 @@
     border-radius: 5px;
     width: 50%;
     margin: auto;
-    background-color: white;
     position: absolute;
     top: -40%;
     left: 1.25em;
