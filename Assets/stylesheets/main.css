@@ -51,9 +51,8 @@ a:hover {
 }
 
 #masthead {
-  position: absolute;
   width: 100%;
-  bottom: 0;
+  margin-top: 5rem;
 }
 
 button {
