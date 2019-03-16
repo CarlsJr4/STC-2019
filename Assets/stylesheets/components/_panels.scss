@@ -9,6 +9,29 @@
   @extend %whiteBox;
 }
 
+// Brown clipboard panel
+.brownPanel {
+  @extend %whiteBox;
+  border: {
+    style: solid;
+    color: $clipPanelBg;
+    width: 50px 8px 8px;
+    radius: 3px;
+  }
+  &::before {
+    content: "";
+    border-bottom: 10px solid white;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: -40%;
+    left: 1.25em;
+    right: 1.25em;
+  }
+}
+
 // Committee cards
 .card {
   @extend %redBox;

@@ -1,4 +1,4 @@
-.welcomeCard, .whitePanel, .whiteHeader, .card, button {
+.welcomeCard, .brownPanel, .whitePanel, .whiteHeader, .card, button {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
@@ -9,7 +9,7 @@
   color: white;
 }
 
-.whitePanel, .whiteHeader {
+.brownPanel, .whitePanel, .whiteHeader {
   background-color: #FFFFFF;
   padding: 3rem;
 }
@@ -70,6 +70,25 @@ button {
 
 .whiteHeader {
   max-width: 50%;
+}
+
+.brownPanel {
+  border-style: solid;
+  border-color: #C1AD8E;
+  border-width: 50px 8px 8px;
+  border-radius: 3px;
+}
+.brownPanel::before {
+  content: "";
+  border-bottom: 10px solid white;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  position: absolute;
+  top: -40%;
+  left: 1.25em;
+  right: 1.25em;
 }
 
 .card {
