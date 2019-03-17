@@ -3,6 +3,7 @@
   @extend %whiteBox;
   max-width: 50%;
   margin-bottom: 3rem;
+  min-width: 350px;
   &::after { // The red underline underneath the panel
     content: "";
     position: absolute;

@@ -73,6 +73,7 @@ button:hover {
 .whiteHeader {
   max-width: 50%;
   margin-bottom: 3rem;
+  min-width: 350px;
 }
 .whiteHeader::after {
   content: "";
