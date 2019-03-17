@@ -27,7 +27,7 @@
     width: 50px 8px 8px;
     radius: 3px;
   }
-  &::before { // The white accent above the clipboard border 
+  &::before { // The white accent above the clipboard border
     content: "";
     border-bottom: 10px solid white;
     border-radius: 5px;
@@ -41,11 +41,23 @@
 }
 
 .brownPanel--downloads {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   &::before {
     top: 1rem;
     width: 35%;
   }
+}
 
+.brownPanel__item {
+  flex: 1;
+  margin: 1rem;
+}
+
+.brownPanel__item > button {
+  width: 100%;
+  height: 100%;
 }
 
 // Committee cards
