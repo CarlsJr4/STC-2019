@@ -3,7 +3,8 @@
 // -----------------------------------------------------------------------------
 
 // Headings
-h1, h2, h3, h4, h5, h6 { font-family: "Archer"; }
+h1 { font-family: "Archer"; }
+h2, h3, h4, h5, h6 { font-family: "MyriadPro"; color: $panelAccent;}
 
 // Paragraphs and links
 p, a { font-family: "CenturyGothic"; }
