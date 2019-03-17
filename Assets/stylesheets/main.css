@@ -52,6 +52,10 @@ h2, h3, h4, h5, h6 {
   color: #D35E5E;
 }
 
+.display-1 {
+  font-size: 6rem;
+}
+
 p, a {
   font-family: "CenturyGothic";
 }
