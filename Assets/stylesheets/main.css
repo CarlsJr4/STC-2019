@@ -57,6 +57,12 @@ a:hover {
 button {
   box-shadow: none;
   padding: 1rem 4rem;
+  border: 3px solid #D35E5E;
+  transition: background-color 100ms;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #D35E5E;
 }
 
 .whiteHeader {
