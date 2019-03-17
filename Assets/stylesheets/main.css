@@ -26,6 +26,11 @@
   margin-top: 10%;
 }
 
+.fa-file-download {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
 @font-face {
   font-family: "Archer";
   src: url(../stylesheets/base/Fonts/Archer-Semibold.otf) format("opentype");
