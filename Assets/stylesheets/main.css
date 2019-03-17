@@ -43,17 +43,21 @@
   font-family: "MyriadPro";
   src: url(../stylesheets/base/Fonts/MyriadPro-Regular.otf) format("opentype");
 }
-h1 {
+h1, h4 {
   font-family: "Archer";
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
   font-family: "MyriadPro";
   color: #D35E5E;
 }
 
 .display-1 {
   font-size: 6rem;
+}
+
+.display-5 {
+  font-size: 1.5rem;
 }
 
 p, a {
