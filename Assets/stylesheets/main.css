@@ -105,6 +105,8 @@ button:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .brownPanel--downloads::before {
   top: 1rem;
