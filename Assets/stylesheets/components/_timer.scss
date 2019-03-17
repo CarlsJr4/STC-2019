@@ -1,0 +1,36 @@
+#clockdiv{
+  color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// Number containers
+#clockdiv > div{
+  flex: 1;
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+  color: black;
+  font-family: $bodyFont;
+}
+
+// Date type labels
+#clockdiv div > span{
+  color: white;
+	padding: 15px;
+	border-radius: 3px;
+	background: $btnBackground;
+	display: inline-block;
+  width: 100%;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
