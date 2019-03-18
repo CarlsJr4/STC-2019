@@ -53,11 +53,35 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
   .brownPanel--downloads {
     margin-top: 5%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .whiteHeader {
+    min-width: 100%;
+  }
+
+  .whitePanel {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .brownPanel {
+    padding: 1.5rem;
+    &::before {
+      top: -12%;
+    }
+  }
+
+  .brownPanel--downloads {
+    margin-top: 5%;
+  }
+}
+
 
 .brownPanel__item {
   flex: 1;

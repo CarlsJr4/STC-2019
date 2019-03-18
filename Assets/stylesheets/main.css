@@ -31,6 +31,11 @@
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 576px) {
+  iframe {
+    width: 100%;
+  }
+}
 @font-face {
   font-family: "Archer";
   src: url(../stylesheets/base/Fonts/Archer-Semibold.otf) format("opentype");
@@ -68,6 +73,15 @@ a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 576px) {
+  .display-1, h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}
 #masthead {
   width: 100%;
 }
@@ -127,7 +141,29 @@ button:hover {
   width: 35%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
+  .brownPanel--downloads {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whiteHeader {
+    min-width: 100%;
+  }
+
+  .whitePanel {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .brownPanel {
+    padding: 1.5rem;
+  }
+  .brownPanel::before {
+    top: -12%;
+  }
+
   .brownPanel--downloads {
     margin-top: 5%;
   }
@@ -188,6 +224,11 @@ button:hover {
   font-size: 16px;
 }
 
+@media screen and (max-width: 576px) {
+  #clockdiv {
+    font-size: 1.5rem;
+  }
+}
 .landing {
   height: 100vh;
 }
@@ -224,10 +265,10 @@ button:hover {
   margin-bottom: 10%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .container {
     margin: 4%;
-    padding-top: 0;
+    padding: 0;
   }
   .container--main {
     height: auto;
@@ -235,6 +276,20 @@ button:hover {
 
   .col-md-8 {
     padding: 0;
+  }
+
+  #downloads {
+    margin: 0;
+  }
+
+  .display-5 > button {
+    width: 95%;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container--main {
+    height: auto;
   }
 }
 

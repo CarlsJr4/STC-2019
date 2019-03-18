@@ -23,10 +23,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .container {
     margin: 4%;
-    padding-top: 0;
+    padding: 0;
     &--main {
       height: auto;
     }
@@ -34,5 +34,22 @@
 
   .col-md-8 {
     padding: 0;
+  }
+
+  #downloads {
+    margin: 0;
+  }
+
+  .display-5 > button {
+    width: 95%;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    &--main {
+      height: auto;
+    }
   }
 }

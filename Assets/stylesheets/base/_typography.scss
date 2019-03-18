@@ -22,10 +22,13 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    // .display-1 {
-    //   font-size: 13rem;
-    // }
+@media screen and (max-width: 576px) {
+    .display-1, h1 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
     // .display-5 {
     //   font-size: 5rem;
     // }
