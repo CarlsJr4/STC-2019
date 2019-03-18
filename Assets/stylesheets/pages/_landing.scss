@@ -5,6 +5,18 @@
   height: 100vh;
 }
 
+.vCenter--landing {
+  margin-top: 5%;
+}
+
+#carouselExampleControls {
+  max-width: 50%;
+}
+
+.brownPanel--slideshow {
+  padding: 0.8rem;
+}
+
 .welcomeCard {
   @extend %box-shadow;
   padding: 25px;

@@ -23,10 +23,6 @@
   margin: 25% 0;
 }
 
-.vCenter--landing {
-  margin-top: 10%;
-}
-
 .fa-file-download {
   padding-left: 1rem;
   font-size: 1.5rem;
@@ -255,6 +251,18 @@ button:hover {
 }
 .landing {
   height: 100vh;
+}
+
+.vCenter--landing {
+  margin-top: 5%;
+}
+
+#carouselExampleControls {
+  max-width: 50%;
+}
+
+.brownPanel--slideshow {
+  padding: 0.8rem;
 }
 
 .welcomeCard {
