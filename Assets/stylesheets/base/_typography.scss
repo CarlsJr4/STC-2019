@@ -8,7 +8,7 @@ h1, h4 { font-family: "Archer"; }
 h2, h3, h5, h6 { font-family: "MyriadPro"; color: $panelAccent;}
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .display-5 {
   font-size: 1.5rem;
@@ -20,4 +20,13 @@ p, a { font-family: "CenturyGothic"; }
 
 a:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    // .display-1 {
+    //   font-size: 13rem;
+    // }
+    // .display-5 {
+    //   font-size: 5rem;
+    // }
 }
