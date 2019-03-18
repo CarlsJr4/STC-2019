@@ -27,61 +27,49 @@
     <title>STC 2019</title>
 
   </head>
-  <body>
+  <body id="landing">
 
-  <div class="container textCenter">
-
-    <div id="carouselExampleControls" class="carousel slide brownPanel brownPanel--slideshow" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="3000">
-          <img src="Assets\Images\slideshow\slide5.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="Assets\Images\slideshow\slide2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="Assets\Images\slideshow\slide3.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="Assets\Images\slideshow\slide4.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-interval="3000">
-          <img src="Assets\Images\slideshow\slide1.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-      <div class="row vCenter--landing">
-
-        <div class="col-md-6">
-          <div class="welcomeCard">
-            <a href="index.html"><h1>North</h1></a>
-            <p>Univerity of California, Davis</p>
-            <p>1 Shields Ave, Davis, California 95616</p>
-          </div>
+  <div class="container container--landing">
+      <div class="row">
+        <div class="col-md-6 card card--landing">
+          <img src="Assets/Images/STC_Logo_Final.png" style="width: 25%;"/>
+          <h1>Spring Training Conference 2019</h1>
+          <p class="lead">The Staples of Leadership</p>
         </div>
 
         <div class="col-md-6">
-          <div class="welcomeCard">
-            <a href="index.html"><h1>South</h1></a>
-            <p>California State University, Fullerton</p>
-            <p>800 N State College Blvd, Fullerton, California 92831</p>
+
+            <div id="carouselExampleControls" class="carousel slide brownPanel brownPanel--slideshow" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="3000">
+                  <img src="Assets\Images\slideshow\slide5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                  <img src="Assets\Images\slideshow\slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                  <img src="Assets\Images\slideshow\slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                  <img src="Assets\Images\slideshow\slide4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                  <img src="Assets\Images\slideshow\slide1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
+      <div class="row">
+        <button type="button">STC North</button>
+        <button type="button" style="margin-left: 5px;">STC South</button>
       </div>
 
     </div>
 
-    <div id="footer"></div>
+    <div id="footer" class="footer--landing"></div>
 
   </body>
 </html>

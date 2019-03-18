@@ -1,16 +1,28 @@
 // -----------------------------------------------------------------------------
 // Stylesheet for the landing page
 // -----------------------------------------------------------------------------
-.landing {
+#landing {
+  background-color: $landBackground;
+}
+
+.container--landing {
   height: 100vh;
+  padding-top: 10%;
+}
+
+.card--landing {
+  margin: 0;
+  text-align: left;
+}
+
+.footer--landing {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 
 .vCenter--landing {
   margin-top: 5%;
-}
-
-#carouselExampleControls {
-  max-width: 50%;
 }
 
 .brownPanel--slideshow {
