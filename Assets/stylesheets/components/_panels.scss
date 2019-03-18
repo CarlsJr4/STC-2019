@@ -17,6 +17,22 @@
 // White content panels
 .whitePanel {
   @extend %whiteBox;
+  &--deadline {
+    margin: 1rem;
+    width: auto;
+    position: relative;
+    &::after {
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      content: '\f573';
+      padding: 15px;
+      color: $panelAccent;
+      font-size: 3rem;
+      position: absolute;
+      right: 5%;
+      top: 30%;
+    }
+  }
 }
 
 // Brown clipboard panel
@@ -68,6 +84,12 @@
     padding: 1.5rem;
     width: 100%;
     margin: 0;
+    &--deadline {
+      margin-bottom: 1rem;
+      &::after {
+      position: relative;
+      }
+    }
   }
 
   .brownPanel {

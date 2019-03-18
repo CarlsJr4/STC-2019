@@ -21,6 +21,9 @@
   &--desc, &--docs, &--deadlines, &--committee {
     margin-bottom: 10%
   }
+  &--deadlines {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
