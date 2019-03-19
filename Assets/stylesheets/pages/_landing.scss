@@ -5,6 +5,10 @@
   background-color: $landBackground;
 }
 
+#btnSouth {
+  margin-left: 5px;
+}
+
 .container--landing {
   height: 100vh;
   padding-top: 10%;
@@ -39,6 +43,35 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-    /* TODO: Add CSS properties here for smaller screens (with width 768px or less, as indicated above) */
+@media screen and (max-width: 576px) {
+  #landingHero {
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .container--landing {
+    position: relative;
+    height: auto;
+  }
+
+  .footer--landing {
+    bottom: auto;
+  }
+
+  a[href="north.html"], a[href="south.html"] {
+    width: 100%;
+    margin: 0.5rem;
+  }
+
+  a[href="north.html"] > button , a[href="south.html"] > button {
+    width: 100%;
+  }
+
+  .card--landing {
+    margin: 0.5rem;
+  }
+
+  #btnSouth {
+    margin-left: 0;
+  }
 }
