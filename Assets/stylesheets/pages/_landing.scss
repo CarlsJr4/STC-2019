@@ -43,6 +43,12 @@
   }
 }
 
+@media screen and (max-width: 995px) {
+  #landingBtnHolder {
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 576px) {
   #landingHero {
     margin: 0;
