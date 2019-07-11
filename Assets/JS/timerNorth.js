@@ -29,7 +29,11 @@ function initializeClock(id, endtime) {
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
     if (t.total <= 0) {
-      clearInterval(timeinterval);
+			clearInterval(timeinterval);
+			daysSpan.innerHTML = '0';
+			hoursSpan.innerHTML = '0';
+			minutesSpan.innerHTML = '0';
+			secondsSpan.innerHTML = '0';
     }
   }
 
